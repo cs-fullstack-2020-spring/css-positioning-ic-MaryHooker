@@ -9,11 +9,24 @@ body{
     border: 1px solid red;
 }
 .content{
+    position: relative;
+    right: 50%;
+    position: absolute;
+    float:left;
+    
     border: 1px solid green;
 }
 .sidebar{
+   position: relative; 
+   left:50%;
+   position: absolute;
+   float: right;
     border: 1px solid  blue;
 }
 .footer{
+    position: relative;
+    clear:both;
+
     border: 1px solid purple;
 }
+
