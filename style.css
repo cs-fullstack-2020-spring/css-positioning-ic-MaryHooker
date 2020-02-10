@@ -24,8 +24,8 @@ body{
     border: 1px solid  blue;
 }
 .footer{
-    position: relative;
-    clear:both;
+    position: absolute;
+    bottom: 30%;
 
     border: 1px solid purple;
 }
