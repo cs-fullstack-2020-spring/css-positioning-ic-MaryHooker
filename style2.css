@@ -10,28 +10,28 @@ body{
 }
 .content{
     
-    width:45%;
+  position: absolute;
 
-    position: relative;
-    
-    float:left;
+  right: 50%;
+
+  /* float: left; */
     
     border: 1px solid green;
 }
 .sidebar{
    
-   width: 45%;
-
-   position: relative;
+  
+   position: absolute;
    
-   float: right;
+   left: 50%;
 
-   border: 1px solid  blue;
+   /* float: right; */
+    border: 1px solid  blue;
 }
 .footer{
-    
-    clear: both;
-    
+
+    position: relative;
+    top: 200px;
 
     border: 1px solid purple;
 }
